@@ -67,8 +67,12 @@
   function linkify(text) {
     var div = document.createElement('div');
     div.textContent = text;
-    return div.innerHTML.replace(/(https?:\/\/[^\s<]+[^\s<.,)!?])/g,
-      '<a href="$1" target="_blank" rel="noopener">$1</a>');
+    var h = div.innerHTML;
+    h = h.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+    h = h.replace(/(^|[^">])(https?:\/\/[^\s<]+[^\s<.,)!?])/g,
+      '$1<a href="$2" target="_blank" rel="noopener">View product &rarr;</a>');
+    h = h.replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>').replace(/\*\*/g, '');
+    return h;
   }
   function add(role, text, extraClass) {
     var el = document.createElement('div');
