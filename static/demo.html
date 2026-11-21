@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Noor Naturals (demo store)</title>
+<style>
+  body{margin:0;font-family:Georgia,serif;background:#faf7f2;color:#2b2b2b}
+  header{padding:28px 40px;border-bottom:1px solid #e8e1d6;display:flex;justify-content:space-between}
+  h1{margin:0;font-size:26px;letter-spacing:.5px}
+  .hero{padding:70px 40px;text-align:center}
+  .hero h2{font-size:40px;margin:0 0 12px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px;padding:0 40px 60px}
+  .card{background:#fff;border:1px solid #eee5d8;border-radius:12px;padding:20px}
+  .card .img{height:120px;border-radius:8px;background:linear-gradient(135deg,#dfe9e4,#f3e7d8);margin-bottom:12px}
+  .price{color:#2f6f5e;font-weight:bold}
+</style>
+</head>
+<body>
+<header><h1>Noor Naturals</h1><span>Shop &middot; About &middot; Cart</span></header>
+<section class="hero"><h2>Gentle skincare for every skin</h2><p>Demo store for the thekhansa Store Assistant.</p></section>
+<section class="grid">
+  <div class="card"><div class="img"></div>Vitamin C Glow Serum<br><span class="price">$24.99</span></div>
+  <div class="card"><div class="img"></div>Daily Sunscreen SPF 50<br><span class="price">$18.99</span></div>
+  <div class="card"><div class="img"></div>Ceramide Barrier Moisturizer<br><span class="price">$22.99</span></div>
+  <div class="card"><div class="img"></div>Starter Glow Kit<br><span class="price">$49.99</span></div>
+</section>
+<script>
+  // Test any client: /demo?client=their-id  (default: noor)
+  (function(){var id=(new URLSearchParams(location.search).get('client')||'noor').replace(/[^a-z0-9_-]/g,'');
+    var s=document.createElement('script');s.src='/widget.js';s.setAttribute('data-client',id);document.body.appendChild(s);})();
+</script>
+</body>
+</html>

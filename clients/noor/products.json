@@ -1,0 +1,269 @@
+{
+  "products": [
+    {
+      "title": "Rose Water Toner",
+      "handle": "rose-water-toner",
+      "product_type": "Toner",
+      "tags": [
+        "toner",
+        "rose",
+        "sensitive skin",
+        "all skin types"
+      ],
+      "body_html": "<p>Alcohol-free rose water toner. Calms and hydrates all skin types. 200 ml.</p>",
+      "variants": [
+        {
+          "price": "12.99",
+          "available": true
+        }
+      ]
+    },
+    {
+      "title": "Vitamin C Glow Serum",
+      "handle": "vitamin-c-glow-serum",
+      "product_type": "Serum",
+      "tags": [
+        "serum",
+        "vitamin c",
+        "dark spots",
+        "brightening"
+      ],
+      "body_html": "<p>10% vitamin C serum for dull skin and dark spots. Use in the morning, then sunscreen. 30 ml.</p>",
+      "variants": [
+        {
+          "price": "24.99",
+          "available": true
+        }
+      ]
+    },
+    {
+      "title": "Niacinamide Pore Serum",
+      "handle": "niacinamide-pore-serum",
+      "product_type": "Serum",
+      "tags": [
+        "serum",
+        "oily skin",
+        "acne",
+        "pores"
+      ],
+      "body_html": "<p>5% niacinamide + zinc. Reduces oil and visible pores. Good for oily and acne-prone skin. 30 ml.</p>",
+      "variants": [
+        {
+          "price": "19.99",
+          "available": true
+        }
+      ]
+    },
+    {
+      "title": "Hyaluronic Hydration Serum",
+      "handle": "hyaluronic-hydration-serum",
+      "product_type": "Serum",
+      "tags": [
+        "serum",
+        "dry skin",
+        "hydration",
+        "sensitive skin"
+      ],
+      "body_html": "<p>Deep hydration for dry and dehydrated skin. Safe for sensitive skin. 30 ml.</p>",
+      "variants": [
+        {
+          "price": "21.99",
+          "available": true
+        }
+      ]
+    },
+    {
+      "title": "Gentle Foam Cleanser",
+      "handle": "gentle-foam-cleanser",
+      "product_type": "Cleanser",
+      "tags": [
+        "cleanser",
+        "oily skin",
+        "combination skin"
+      ],
+      "body_html": "<p>Low-pH foaming cleanser. Removes oil without drying. 150 ml.</p>",
+      "variants": [
+        {
+          "price": "14.99",
+          "available": true
+        }
+      ]
+    },
+    {
+      "title": "Oat Milk Cream Cleanser",
+      "handle": "oat-milk-cream-cleanser",
+      "product_type": "Cleanser",
+      "tags": [
+        "cleanser",
+        "dry skin",
+        "sensitive skin",
+        "fragrance-free"
+      ],
+      "body_html": "<p>Creamy, fragrance-free cleanser for dry and sensitive skin. 150 ml.</p>",
+      "variants": [
+        {
+          "price": "15.99",
+          "available": true
+        }
+      ]
+    },
+    {
+      "title": "Daily Sunscreen SPF 50",
+      "handle": "daily-sunscreen-spf-50",
+      "product_type": "Sunscreen",
+      "tags": [
+        "sunscreen",
+        "spf",
+        "daily",
+        "all skin types"
+      ],
+      "body_html": "<p>Light, no white cast SPF 50 PA++++. Works under makeup. 50 ml.</p>",
+      "variants": [
+        {
+          "price": "18.99",
+          "available": true
+        }
+      ]
+    },
+    {
+      "title": "Tinted Sunscreen SPF 40",
+      "handle": "tinted-sunscreen-spf-40",
+      "product_type": "Sunscreen",
+      "tags": [
+        "sunscreen",
+        "tinted",
+        "makeup"
+      ],
+      "body_html": "<p>Tinted SPF 40 that evens skin tone. Shades: Light, Medium, Deep. 50 ml.</p>",
+      "variants": [
+        {
+          "price": "20.99",
+          "available": true
+        }
+      ]
+    },
+    {
+      "title": "Ceramide Barrier Moisturizer",
+      "handle": "ceramide-barrier-moisturizer",
+      "product_type": "Moisturizer",
+      "tags": [
+        "moisturizer",
+        "dry skin",
+        "barrier",
+        "winter"
+      ],
+      "body_html": "<p>Rich cream with ceramides for dry, damaged skin barrier. 50 ml.</p>",
+      "variants": [
+        {
+          "price": "22.99",
+          "available": true
+        }
+      ]
+    },
+    {
+      "title": "Oil-Free Gel Moisturizer",
+      "handle": "oil-free-gel-moisturizer",
+      "product_type": "Moisturizer",
+      "tags": [
+        "moisturizer",
+        "oily skin",
+        "acne",
+        "gel"
+      ],
+      "body_html": "<p>Light gel moisturizer for oily and acne-prone skin. Non-comedogenic. 50 ml.</p>",
+      "variants": [
+        {
+          "price": "17.99",
+          "available": true
+        }
+      ]
+    },
+    {
+      "title": "Retinol Night Cream",
+      "handle": "retinol-night-cream",
+      "product_type": "Night cream",
+      "tags": [
+        "retinol",
+        "anti-aging",
+        "night"
+      ],
+      "body_html": "<p>0.3% retinol for fine lines and texture. Night use only. Not for pregnancy. 30 ml.</p>",
+      "variants": [
+        {
+          "price": "27.99",
+          "available": true
+        }
+      ]
+    },
+    {
+      "title": "Clay Detox Mask",
+      "handle": "clay-detox-mask",
+      "product_type": "Mask",
+      "tags": [
+        "mask",
+        "clay",
+        "oily skin",
+        "pores"
+      ],
+      "body_html": "<p>Kaolin clay mask. Use 1-2 times a week to clear pores. 100 g.</p>",
+      "variants": [
+        {
+          "price": "16.99",
+          "available": true
+        }
+      ]
+    },
+    {
+      "title": "Lip Repair Balm",
+      "handle": "lip-repair-balm",
+      "product_type": "Lip care",
+      "tags": [
+        "lip",
+        "balm",
+        "dry lips"
+      ],
+      "body_html": "<p>Shea butter lip balm for dry, cracked lips. 10 g.</p>",
+      "variants": [
+        {
+          "price": "7.99",
+          "available": true
+        }
+      ]
+    },
+    {
+      "title": "Under-Eye Caffeine Gel",
+      "handle": "under-eye-caffeine-gel",
+      "product_type": "Eye care",
+      "tags": [
+        "eye",
+        "dark circles",
+        "puffiness"
+      ],
+      "body_html": "<p>Caffeine gel to reduce puffiness and dark circles. 15 ml.</p>",
+      "variants": [
+        {
+          "price": "15.99",
+          "available": true
+        }
+      ]
+    },
+    {
+      "title": "Starter Glow Kit",
+      "handle": "starter-glow-kit",
+      "product_type": "Bundle",
+      "tags": [
+        "bundle",
+        "kit",
+        "gift",
+        "beginner routine"
+      ],
+      "body_html": "<p>Gentle Foam Cleanser + Vitamin C Glow Serum + Daily Sunscreen SPF 50. Save 15%.</p>",
+      "variants": [
+        {
+          "price": "49.99",
+          "available": true
+        }
+      ]
+    }
+  ]
+}
