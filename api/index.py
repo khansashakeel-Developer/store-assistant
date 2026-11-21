@@ -163,6 +163,17 @@ def widget():
                         headers={"Cache-Control": "public, max-age=300"})
 
 
+@app.get("/avatar/{client_id}")
+def avatar(client_id: str):
+    """The client's own avatar picture: clients/<id>/avatar.jpg (or .png / .webp)."""
+    cfg = load_client(client_id)
+    for ext in ("jpg", "jpeg", "png", "webp"):
+        f = cfg["folder"] / f"avatar.{ext}"
+        if f.exists():
+            return FileResponse(f, headers={"Cache-Control": "public, max-age=3600"})
+    raise HTTPException(404, "No avatar")
+
+
 @app.get("/demo")
 def demo_page():
     """A plain test page with the bubble on it, for trying the bot before a store exists."""
@@ -172,7 +183,7 @@ def demo_page():
 @app.get("/api/config/{client_id}")
 def public_config(client_id: str):
     cfg = load_client(client_id)
-    return {k: cfg.get(k) for k in ("name", "bot_name", "greeting", "color")}
+    return {k: cfg.get(k) for k in ("name", "bot_name", "greeting", "color", "avatar")}
 
 
 @app.post("/api/chat")
